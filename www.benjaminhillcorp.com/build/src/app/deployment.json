@@ -1,0 +1,85 @@
+{
+  "id": "/subscriptions/4348e4cb-030d-4415-b49c-9c44a2052fd3/resourceGroups/DefaultResourceGroup-WUS2/providers/Microsoft.Resources/deployments/Microsoft.Web-StaticApp-Portal-baeeed84-b93e",
+  "name": "Microsoft.Web-StaticApp-Portal-baeeed84-b93e",
+  "type": "Microsoft.Resources/deployments",
+  "properties": {
+    "templateHash": "15740014764305366945",
+    "parameters": {
+      "name": {
+        "type": "String",
+        "value": "BenjaminHillCorp"
+      },
+      "location": {
+        "type": "String",
+        "value": "westus2"
+      },
+      "sku": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "skucode": {
+        "type": "String",
+        "value": "Standard"
+      },
+      "repositoryUrl": {
+        "type": "String",
+        "value": "https://github.com/WebAppsDevelopment/EhteshamK"
+      },
+      "branch": {
+        "type": "String",
+        "value": "BenjaminHillCorp"
+      },
+      "repositoryToken": {
+        "type": "SecureString"
+      },
+      "appLocation": {
+        "type": "String",
+        "value": "/"
+      },
+      "apiLocation": {
+        "type": "String",
+        "value": ""
+      },
+      "appArtifactLocation": {
+        "type": "String",
+        "value": ""
+      },
+      "areStaticSitesDistributedBackendsEnabled": {
+        "type": "Bool",
+        "value": false
+      }
+    },
+    "mode": "Incremental",
+    "debugSetting": {
+      "detailLevel": "None"
+    },
+    "provisioningState": "Succeeded",
+    "timestamp": "2024-12-11T01:59:17.513393Z",
+    "duration": "PT4.7255851S",
+    "correlationId": "1cc85471-f547-44f6-b941-03fc71f213f3",
+    "providers": [
+      {
+        "namespace": "Microsoft.Web",
+        "resourceTypes": [
+          {
+            "resourceType": "staticSites",
+            "locations": [
+              "westus2"
+            ]
+          }
+        ]
+      }
+    ],
+    "dependencies": [],
+    "outputResources": [
+      {
+        "id": "/subscriptions/4348e4cb-030d-4415-b49c-9c44a2052fd3/resourceGroups/DefaultResourceGroup-WUS2/providers/Microsoft.Web/staticSites/BenjaminHillCorp"
+      }
+    ],
+    "validationLevel": "Template"
+  },
+  "tags": {
+    "primaryResourceId": "/subscriptions/4348e4cb-030d-4415-b49c-9c44a2052fd3/resourcegroups/DefaultResourceGroup-WUS2/providers/Microsoft.Web/staticSites/BenjaminHillCorp",
+    "marketplaceItemId": "Microsoft.StaticApp"
+  }
+}
